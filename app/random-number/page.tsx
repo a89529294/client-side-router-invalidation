@@ -6,7 +6,7 @@ export default async function RandomNumber() {
 
   console.log("revalidating...");
 
-  return <div className="p-4 text-white">{number}</div>;
+  return <div className="p-4 ">{number}</div>;
 }
 
 export const revalidate = 20;
